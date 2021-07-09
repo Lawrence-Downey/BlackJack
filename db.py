@@ -67,6 +67,7 @@ def gettingChips():
         print("Maybe another time then?")
         print("Goodbye.")
         sys.exit()
+    return chips
 
 def main():
     readMoney()
